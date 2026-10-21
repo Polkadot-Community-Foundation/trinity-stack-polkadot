@@ -91,7 +91,7 @@
     {
       "kind": "hop",
       "urls": [
-        "wss://rpc.interweb-it.com/bulletin"
+        "wss://bulletin-rpc-jupiter.api.pcf.network"
       ]
     }
   ],
