@@ -30,6 +30,8 @@
       "paraId": 1000,
       "role": "AssetHub",
       "rpc": [
+        "wss://asset-hub-rpc-mercury.api.pcf.network",
+        "wss://asset-hub-rpc-venus.api.pcf.network",
         "wss://polkadot-asset-hub-rpc.polkadot.io",
         "wss://asset-hub-polkadot-rpc.n.dwellir.com",
         "wss://asset-hub-polkadot.gatotech.network",
@@ -44,6 +46,8 @@
       "paraId": 1004,
       "role": "People",
       "rpc": [
+        "wss://people-rpc-earth.api.pcf.network",
+        "wss://people-rpc-mars.api.pcf.network",
         "wss://polkadot-people-rpc.polkadot.io",
         "wss://people-polkadot-rpc.n.dwellir.com",
         "wss://rpc-people-polkadot.luckyfriday.io",
@@ -56,6 +60,8 @@
       "paraId": 1010,
       "role": "Bulletin",
       "rpc": [
+        "wss://bulletin-rpc-jupiter.api.pcf.network",
+        "wss://bulletin-rpc-saturn.api.pcf.network",
         "wss://bulletin-rpc.polkadot.io",
         "wss://rpc-bulletin.luckyfriday.io",
         "wss://rpc.interweb-it.com/bulletin"
@@ -73,7 +79,7 @@
   "id": "polkadot",
   "name": "Polkadot",
   "network": "polkadot",
-  "sequence": 1792589069,
+  "sequence": 1792598906,
   "services": [
     {
       "kind": "dub",

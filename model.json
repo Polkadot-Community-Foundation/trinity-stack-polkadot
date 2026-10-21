@@ -25,6 +25,8 @@
       "paraId": 1000,
       "genesisHash": "0x68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f",
       "rpc": [
+        "wss://asset-hub-rpc-mercury.api.pcf.network",
+        "wss://asset-hub-rpc-venus.api.pcf.network",
         "wss://polkadot-asset-hub-rpc.polkadot.io",
         "wss://asset-hub-polkadot-rpc.n.dwellir.com",
         "wss://asset-hub-polkadot.gatotech.network",
@@ -39,6 +41,8 @@
       "paraId": 1004,
       "genesisHash": "0x67fa177a097bfa18f77ea95ab56e9bcdfeb0e5b8a40e46298bb93e16b6fc5008",
       "rpc": [
+        "wss://people-rpc-earth.api.pcf.network",
+        "wss://people-rpc-mars.api.pcf.network",
         "wss://polkadot-people-rpc.polkadot.io",
         "wss://people-polkadot-rpc.n.dwellir.com",
         "wss://rpc-people-polkadot.luckyfriday.io",
@@ -51,6 +55,8 @@
       "paraId": 1010,
       "genesisHash": "0x2761c95259d59e55ae3daf756c1413b46e45a5a2987299f8ef8e5d8e4776cbc4",
       "rpc": [
+        "wss://bulletin-rpc-jupiter.api.pcf.network",
+        "wss://bulletin-rpc-saturn.api.pcf.network",
         "wss://bulletin-rpc.polkadot.io",
         "wss://rpc-bulletin.luckyfriday.io",
         "wss://rpc.interweb-it.com/bulletin"
