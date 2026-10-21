@@ -79,7 +79,7 @@
   "id": "polkadot",
   "name": "Polkadot",
   "network": "polkadot",
-  "sequence": 1792598906,
+  "sequence": 1792616987,
   "services": [
     {
       "kind": "dub",
@@ -108,7 +108,7 @@
     {
       "kind": "hop",
       "urls": [
-        "wss://rpc.interweb-it.com/bulletin"
+        "wss://bulletin-rpc-jupiter.api.pcf.network"
       ]
     }
   ],
