@@ -1,0 +1,110 @@
+{
+  "$v": 1,
+  "assets": [
+    {
+      "chain": "AssetHub",
+      "id": 7873,
+      "pallet": "Assets",
+      "role": "payment"
+    }
+  ],
+  "chains": [
+    {
+      "genesisHash": "0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+      "role": "Relay",
+      "rpc": [
+        "wss://rpc.polkadot.io",
+        "wss://polkadot-rpc.n.dwellir.com",
+        "wss://polkadot-rpc.publicnode.com",
+        "wss://polkadot.api.onfinality.io/public-ws",
+        "wss://polkadot.gatotech.network",
+        "wss://rockx-dot.w3node.com/polka-public-dot/ws",
+        "wss://rpc-polkadot.helixstreet.io",
+        "wss://rpc-polkadot.luckyfriday.io",
+        "wss://rpc-polkadot.stakeworld.io",
+        "wss://rpc.interweb-it.com/polkadot"
+      ]
+    },
+    {
+      "genesisHash": "0x68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f",
+      "paraId": 1000,
+      "role": "AssetHub",
+      "rpc": [
+        "wss://polkadot-asset-hub-rpc.polkadot.io",
+        "wss://asset-hub-polkadot-rpc.n.dwellir.com",
+        "wss://asset-hub-polkadot.gatotech.network",
+        "wss://rpc-asset-hub-polkadot.helixstreet.io",
+        "wss://rpc-asset-hub-polkadot.luckyfriday.io",
+        "wss://rpc-asset-hub-polkadot.stakeworld.io",
+        "wss://statemint.api.onfinality.io/public-ws"
+      ]
+    },
+    {
+      "genesisHash": "0x67fa177a097bfa18f77ea95ab56e9bcdfeb0e5b8a40e46298bb93e16b6fc5008",
+      "paraId": 1004,
+      "role": "People",
+      "rpc": [
+        "wss://polkadot-people-rpc.polkadot.io",
+        "wss://people-polkadot-rpc.n.dwellir.com",
+        "wss://rpc-people-polkadot.luckyfriday.io",
+        "wss://rpc-people-polkadot.stakeworld.io"
+      ],
+      "statementStore": true
+    },
+    {
+      "genesisHash": "0x2761c95259d59e55ae3daf756c1413b46e45a5a2987299f8ef8e5d8e4776cbc4",
+      "paraId": 1010,
+      "role": "Bulletin",
+      "rpc": [
+        "wss://bulletin-rpc.polkadot.io",
+        "wss://rpc-bulletin.luckyfriday.io",
+        "wss://rpc.interweb-it.com/bulletin"
+      ]
+    }
+  ],
+  "coinage": {
+    "chain": "People",
+    "instance": 0
+  },
+  "contracts": {
+    "accountDataStore": "0x146a90b89ed24dcaa9c4048269a7b57a3b93cf80"
+  },
+  "generation": "0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+  "id": "polkadot",
+  "name": "Polkadot",
+  "network": "polkadot",
+  "sequence": 1792589069,
+  "services": [
+    {
+      "kind": "dub",
+      "urls": [
+        "https://polkadot-app.api.pcf.network/"
+      ]
+    },
+    {
+      "kind": "turn",
+      "urls": [
+        "https://polkadot-app.api.pcf.network/"
+      ]
+    },
+    {
+      "kind": "stun",
+      "urls": [
+        "stun:turn.api.pcf.network:3478"
+      ]
+    },
+    {
+      "kind": "ipfs-gateway",
+      "urls": [
+        "https://ipfs.api.pcf.network/ipfs/"
+      ]
+    },
+    {
+      "kind": "hop",
+      "urls": [
+        "wss://rpc.interweb-it.com/bulletin"
+      ]
+    }
+  ],
+  "tld": "dot"
+}
