@@ -13,7 +13,6 @@
         "wss://polkadot-rpc.publicnode.com",
         "wss://polkadot.api.onfinality.io/public-ws",
         "wss://polkadot.gatotech.network",
-        "wss://rockx-dot.w3node.com/polka-public-dot/ws",
         "wss://rpc-polkadot.helixstreet.io",
         "wss://rpc-polkadot.luckyfriday.io",
         "wss://rpc-polkadot.stakeworld.io",
@@ -59,7 +58,7 @@
         "wss://bulletin-rpc-saturn.api.pcf.network",
         "wss://bulletin-rpc.polkadot.io",
         "wss://rpc-bulletin.luckyfriday.io",
-        "wss://rpc.interweb-it.com/bulletin"
+        "wss://rpc.interweb-it.com/bulletin-polkadot"
       ]
     }
   ],
