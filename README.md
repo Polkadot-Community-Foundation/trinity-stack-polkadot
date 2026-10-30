@@ -22,11 +22,12 @@ also serve the statement store, because the descriptor marks that chain `stateme
 
 ## Files
 
-| File                             | What it is                                                           |
-| -------------------------------- | -------------------------------------------------------------------- |
-| `model.json`                     | The source: the descriptor without `$v`, `sequence` and `generation` |
-| `.well-known/trinity-stack.json` | The rendered descriptor this site serves                             |
-| `publish-state.json`             | The last `sequence` and content hash, so `sequence` only rises       |
+| File                             | What it is                                                                                                                         |
+| -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| `model.json`                     | The source: the descriptor without `$v`, `sequence` and `generation`                                                               |
+| `.well-known/trinity-stack.json` | The rendered descriptor this site serves                                                                                           |
+| `publish-state.json`             | The last `sequence` and content hash, so `sequence` only rises                                                                     |
+| `chainspecs/`                    | Light-client specs (`*.smol.json`) and the Bulletin raw spec, named by content hash. The other full specs are pinned upstream URLs |
 
 ## Publishing a change
 
