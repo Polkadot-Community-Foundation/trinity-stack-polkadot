@@ -17,7 +17,15 @@
         "wss://rpc-polkadot.luckyfriday.io",
         "wss://rpc-polkadot.stakeworld.io",
         "wss://rpc.interweb-it.com/polkadot"
-      ]
+      ],
+      "lightSpec": {
+        "url": "https://stack.api.pcf.network/chainspecs/polkadot.ab15c67e9d30.smol.json",
+        "sha256": "0xab15c67e9d30714ab71cd7fc5ab53b06e4fe854bb118d62f65f7a1b9b8d1a375"
+      },
+      "fullSpec": {
+        "url": "https://raw.githubusercontent.com/paritytech/polkadot-sdk/9d0dc6e8fbb13174663abb4001e369f2a69f357a/polkadot/node/service/chain-specs/polkadot.json",
+        "sha256": "0xd9feae186d0cb776d04372946d7a145efa18fdba7b283733fa655773af426457"
+      }
     },
     {
       "role": "AssetHub",
@@ -33,7 +41,15 @@
         "wss://rpc-asset-hub-polkadot.luckyfriday.io",
         "wss://rpc-asset-hub-polkadot.stakeworld.io",
         "wss://statemint.api.onfinality.io/public-ws"
-      ]
+      ],
+      "lightSpec": {
+        "url": "https://stack.api.pcf.network/chainspecs/asset-hub-polkadot.d651325f7db3.smol.json",
+        "sha256": "0xd651325f7db3b4164a83185960d092962dec16a7bf28f7d09abb2fc42c3d658f"
+      },
+      "fullSpec": {
+        "url": "https://raw.githubusercontent.com/paritytech/polkadot-sdk/9d0dc6e8fbb13174663abb4001e369f2a69f357a/cumulus/parachains/chain-specs/asset-hub-polkadot.json",
+        "sha256": "0x38d099cc33434911718b1533b0b5df346d2058652110630b5364de4cf7666e36"
+      }
     },
     {
       "role": "People",
@@ -47,7 +63,15 @@
         "wss://rpc-people-polkadot.luckyfriday.io",
         "wss://rpc-people-polkadot.stakeworld.io"
       ],
-      "statementStore": true
+      "statementStore": true,
+      "lightSpec": {
+        "url": "https://stack.api.pcf.network/chainspecs/people-polkadot.76eac24447bf.smol.json",
+        "sha256": "0x76eac24447bf921936656d0c01192679e89a04a7afd15e251f48baadb70f2ce6"
+      },
+      "fullSpec": {
+        "url": "https://raw.githubusercontent.com/paritytech/polkadot-sdk/9d0dc6e8fbb13174663abb4001e369f2a69f357a/cumulus/parachains/chain-specs/people-polkadot.json",
+        "sha256": "0xc90303ad2a4495424765b6d6c87b98b9286c7b32096ecc721fe37677b4267d00"
+      }
     },
     {
       "role": "Bulletin",
@@ -59,7 +83,15 @@
         "wss://bulletin-rpc.polkadot.io",
         "wss://rpc-bulletin.luckyfriday.io",
         "wss://rpc.interweb-it.com/bulletin-polkadot"
-      ]
+      ],
+      "lightSpec": {
+        "url": "https://stack.api.pcf.network/chainspecs/bulletin-polkadot.b3239b829231.smol.json",
+        "sha256": "0xb3239b829231a8dda1048e06d9c8cc302c455db55e91d6eba218230c862f6e5e"
+      },
+      "fullSpec": {
+        "url": "https://stack.api.pcf.network/chainspecs/bulletin-polkadot.e725dfc6b096.raw.json",
+        "sha256": "0xe725dfc6b096fa98f24d0a8d6a8d28ba15db2740f9c9f3f85897112cd8259c25"
+      }
     }
   ],
   "services": [
@@ -92,6 +124,13 @@
       "urls": [
         "wss://bulletin-rpc-jupiter.api.pcf.network"
       ]
+    },
+    {
+      "kind": "eth-rpc",
+      "urls": [
+        "https://eth-rpc.polkadot.io"
+      ],
+      "chainId": 420420419
     }
   ],
   "assets": [
