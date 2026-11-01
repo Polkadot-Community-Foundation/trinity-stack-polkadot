@@ -131,6 +131,18 @@
         "https://eth-rpc.polkadot.io"
       ],
       "chainId": 420420419
+    },
+    {
+      "kind": "web-gateway",
+      "urls": [
+        "https://dot.li/"
+      ]
+    },
+    {
+      "kind": "evm-explorer",
+      "urls": [
+        "https://blockscout.polkadot.io/"
+      ]
     }
   ],
   "assets": [
@@ -142,12 +154,25 @@
     }
   ],
   "contracts": {
-    "accountDataStore": "0x146a90b89ed24dcaa9c4048269a7b57a3b93cf80",
-    "dotnsRegistry": "0x1ae9a72865ec7092fc7036892f3349748d31a71e",
-    "dotnsContentResolver": "0xf460c6406217e62a0d2717cd45d6385fe5832001",
-    "dotnsPopController": "0xa06d1cb1e3fedff7b5dfa779b4cc61703f8a46a1",
-    "dotnsPopResolver": "0x41a56012461efa8e3f62b4106240a9c2758d99d8",
-    "dotnsProtocolRegistry": "0x371693beead209fbb94e2fe5a6e43c3c15fe376f"
+    "accountDataStore": "0x146a90b89ed24dcaa9c4048269a7b57a3b93cf80"
+  },
+  "dotns": {
+    "contentResolver": "0xf460c6406217e62a0d2717cd45d6385fe5832001",
+    "controller": "0x76c19abe11404e43445670f13173afa60bed53f8",
+    "costModel": "0xc6ef04dcd0f7d4f8e6d918d8101ec5f9d5a16198",
+    "create3Factory": "0x79718ea8c9517447fc96229dcbd3f2fd9ee8d2c2",
+    "nameEscrow": "0xd76134522faf788f8df110e1166441e4468d2c81",
+    "nameWhitelist": "0xec2f4c007b51c35defa96bf654f357fc850362ab",
+    "popController": "0xa06d1cb1e3fedff7b5dfa779b4cc61703f8a46a1",
+    "popLens": "0xe98fe2437eec5e867b232409d29dae61a0255c31",
+    "popResolver": "0x41a56012461efa8e3f62b4106240a9c2758d99d8",
+    "popRules": "0x088c8de68fd3c199e64c65153b3b628760413bd7",
+    "protocolRegistry": "0x371693beead209fbb94e2fe5a6e43c3c15fe376f",
+    "registrar": "0x37442d086e282f7c497fc4ffe00d0a06b84a1f81",
+    "registry": "0x1ae9a72865ec7092fc7036892f3349748d31a71e",
+    "resolver": "0x62060d4ebb7c375d151e21fdcaed0b9a71727975",
+    "reverseResolver": "0x194bc50ed31c0903e5761b37bc85fb7371a86e78",
+    "storeFactory": "0xfe75036170a5c800a939df476d756c3d8ff56a8a"
   },
   "coinage": {
     "chain": "People",
