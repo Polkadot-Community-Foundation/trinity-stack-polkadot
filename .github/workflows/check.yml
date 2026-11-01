@@ -1,4 +1,4 @@
-name: Check dotNS
+name: Check descriptor
 
 on:
   schedule:
@@ -19,4 +19,8 @@ jobs:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
-      - run: node scripts/check-dotns.mjs model.json
+      - name: dotns matches the protocol registry
+        run: node scripts/check-dotns.mjs model.json
+      - name: validUntil is more than 14 days away
+        if: ${{ !cancelled() }}
+        run: node scripts/check-valid-until.mjs model.json
