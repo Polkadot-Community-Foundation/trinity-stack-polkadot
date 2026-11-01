@@ -29,6 +29,7 @@ also serve the statement store, because the descriptor marks that chain `stateme
 | `publish-state.json`             | The last `sequence` and content hash, so `sequence` only rises                                                                     |
 | `chainspecs/`                    | Light-client specs (`*.smol.json`) and the Bulletin raw spec, named by content hash. The other full specs are pinned upstream URLs |
 | `scripts/check-dotns.mjs`        | Compares `dotns` with the dotNS protocol registry; CI runs it daily and on every change                                            |
+| `scripts/check-valid-until.mjs`  | Fails 14 days before `validUntil`, the cue to publish again; CI runs it with the dotns check                                       |
 
 ## Publishing a change
 
