@@ -28,6 +28,7 @@ also serve the statement store, because the descriptor marks that chain `stateme
 | `.well-known/trinity-stack.json` | The rendered descriptor this site serves                                                                                           |
 | `publish-state.json`             | The last `sequence` and content hash, so `sequence` only rises                                                                     |
 | `chainspecs/`                    | Light-client specs (`*.smol.json`) and the Bulletin raw spec, named by content hash. The other full specs are pinned upstream URLs |
+| `scripts/check-dotns.mjs`        | Compares `dotns` with the dotNS protocol registry; CI runs it daily and on every change                                            |
 
 ## Publishing a change
 
