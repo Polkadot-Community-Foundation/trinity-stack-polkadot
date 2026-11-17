@@ -122,6 +122,13 @@
     {
       "kind": "hop",
       "urls": [
+        "wss://bulletin.dpstk.de",
+        "wss://bulletin.faradaynodes.com",
+        "wss://bulletin-rpc.obis.dev",
+        "wss://rpc.interweb-it.com/bulletin-polkadot-col",
+        "wss://bulletin.tservices.es:30549",
+        "wss://bulletin.rubynodes.io",
+        "wss://bulletin.amperfix.de",
         "wss://bulletin-rpc-jupiter.api.pcf.network"
       ]
     },
@@ -179,5 +186,5 @@
     "chain": "People",
     "instance": 0
   },
-  "validUntil": 1801305299
+  "validUntil": 1802691853
 }

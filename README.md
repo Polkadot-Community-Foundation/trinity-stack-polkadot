@@ -20,6 +20,12 @@ The RPC lists hold every public endpoint that reports the chain's genesis hash, 
 of the best one seen, and serves both the `chainHead_v1` and the legacy `state_*`/`author_*` methods. People endpoints
 also serve the statement store, because the descriptor marks that chain `statementStore`.
 
+The `hop` list holds the Bulletin collators whose public RPC reaches the collator itself: on every connection
+`system_localPeerId` is the collator's peer id and `system_nodeRoles` is `Authority`, the `hop_*` methods are served,
+and a 2,000,000-byte `hop_submit` reaches the node. Each URL is one node, because a HOP blob stays on the node that
+received it. PCF's Bulletin node comes last: it serves HOP but, not being a collator, never promotes unclaimed data
+to the chain.
+
 ## Files
 
 | File                             | What it is                                                                                                                         |
